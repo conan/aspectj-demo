@@ -11,7 +11,8 @@ public class AspectJDemo {
         LoggingService loggingService = context.getBean(LoggingService.class);
 
         for (int i = 0; i < 4; i++) {
-            loggingService.log("message " + i);
+            loggingService.log("log " + i);
+            System.out.println("doing stuff " + i + " times");
         }
     }
 }
