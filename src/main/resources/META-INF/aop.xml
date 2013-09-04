@@ -4,6 +4,6 @@
         <include within="conan.rocks.*"/>
     </weaver>
     <aspects>
-        <aspect name="conan.rocks.LogThreadingAspect"/>
+        
     </aspects>
 </aspectj>
