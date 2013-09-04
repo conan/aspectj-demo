@@ -5,8 +5,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 @Scope("prototype")
-public class LoggingService {
+public class IODelayLogService implements LogService {
 
+    @Override
     public void log(String message) {
         fakeIODelay();
         System.out.println(message);

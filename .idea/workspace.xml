@@ -2,19 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf5085c4-efca-4313-bc40-00bc227f59c8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/conan/rocks/LogService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/conan/rocks/LogThreadingAspect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_instrument_3_2_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/aop.xml" />
+      <change type="MOVED" beforePath="C:\dev\AspectJDemo\src\main\java\conan\rocks\LoggingService.java" afterPath="$PROJECT_DIR$/src/main/java/conan/rocks/IODelayLogService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/conan/rocks/context/ApplicationConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/conan/rocks/context/ApplicationConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AspectJDemo.iml" afterPath="$PROJECT_DIR$/AspectJDemo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/conan/rocks/AspectJDemo.java" afterPath="$PROJECT_DIR$/src/main/java/conan/rocks/AspectJDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AspectJDemo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/pom.xml" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378327323540" ignored="false" />
+    <file path="/pom.xml" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378332648709" ignored="false" />
     <file path="/LoggingServiceTest.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378327801942" ignored="false" />
-    <file path="/LoggingService.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378328276011" ignored="false" />
-    <file path="/ApplicationConfiguration.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378328335239" ignored="false" />
+    <file path="/LoggingService.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378333298110" ignored="false" />
+    <file path="/ApplicationConfiguration.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378330681810" ignored="false" />
     <file path="/AspectJDemo.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378329383458" ignored="false" />
     <file path="/sample.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378328651318" ignored="false" />
     <file path="/Dummy.txt" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378329269036" ignored="false" />
+    <file path="/LogThreader.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378331633791" ignored="false" />
+    <file path="/LoggingServicePointcut.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378330597130" ignored="false" />
+    <file path="/LogThreadingAspect.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378334107815" ignored="false" />
+    <file path="/fragment.java" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378333215753" ignored="false" />
+    <file path="/aop.xml" changelist="bf5085c4-efca-4313-bc40-00bc227f59c8" time="1378333939895" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +90,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="21" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+            <state line="29" column="38" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,25 +99,52 @@
       <file leaf-file-name="ApplicationConfiguration.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/context/ApplicationConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="36" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AspectJDemo.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AspectJDemo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/AspectJDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="638" selection-end="638" vertical-scroll-proportion="0.66233766">
+            <state line="18" column="0" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoggingService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/LoggingService.java">
+      <file leaf-file-name="LogThreadingAspect.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/LogThreadingAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+            <state line="14" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="0.42630386">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aop.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/aop.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="38" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IODelayLogService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/IODelayLogService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="23" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/LogService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,10 +171,15 @@
         <option value="$PROJECT_DIR$/src/test/java/conan/rocks/SpringAppTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/conan/rocks/LoggingServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/conan/rocks/ApplicationConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/conan/rocks/LoggingService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/conan/rocks/context/ApplicationConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/conan/rocks/AspectJDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conan/rocks/LogThreader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conan/rocks/LoggingServicePointcut.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conan/rocks/context/ApplicationConfiguration.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/conan/rocks/IODelayLoggingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conan/rocks/LoggingService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/aop.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/conan/rocks/LogThreadingAspect.java" />
       </list>
     </option>
   </component>
@@ -145,6 +189,34 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="AspectJDemo" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="AspectJDemo" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -159,7 +231,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -213,6 +285,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,6 +358,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
@@ -285,11 +366,17 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="conan.rocks" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.AspectJDemo">
     <configuration default="false" name="AspectJDemo" type="Application" factoryName="Application" temporary="true">
@@ -300,11 +387,11 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="conan.rocks.AspectJDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-javaagent:C:\Users\Co\.m2\repository\org\springframework\spring-instrument\3.2.0.RELEASE\spring-instrument-3.2.0.RELEASE.jar" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -401,8 +488,8 @@
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.HelloApp" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AppTests" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AspectJDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AspectJDemo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AppTests" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -448,25 +535,25 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15935484" sideWeight="0.6712517" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967742" sideWeight="0.6712517" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -556,7 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/LoggingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/IODelayLogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="12" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
           <folding />
@@ -584,7 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/LoggingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/IODelayLogService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="12" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
           <folding />
@@ -593,28 +680,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/LoggingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+        <state line="29" column="38" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/context/ApplicationConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+        <state line="17" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/IODelayLogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/aop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="38" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/AspectJDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="638" selection-end="638" vertical-scroll-proportion="0.66233766">
+        <state line="18" column="0" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conan/rocks/LogThreadingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="345" selection-end="345" vertical-scroll-proportion="0.42630386">
           <folding />
         </state>
       </provider>

@@ -8,10 +8,10 @@ public class AspectJDemo {
 
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
-        LoggingService loggingService = context.getBean(LoggingService.class);
+        LogService logService = context.getBean(IODelayLogService.class);
 
         for (int i = 0; i < 4; i++) {
-            loggingService.log("log " + i);
+            logService.log("log " + i);
             System.out.println("doing stuff " + i + " times");
         }
     }

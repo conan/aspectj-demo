@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspectj>
+    <weaver>
+        <include within="conan.rocks.*"/>
+    </weaver>
+    <aspects>
+        <aspect name="conan.rocks.LogThreadingAspect"/>
+    </aspects>
+</aspectj>
